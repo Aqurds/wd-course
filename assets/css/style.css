@@ -5,9 +5,10 @@ body {
 .top-nav {
   height: 36px;
   background-color: rgb(62, 62, 62);
-  line-height: 36px;
+  line-height: 29px;
   vertical-align: middle;
   text-align: right;
+  display: none;
 }
 
 .top-nav div {
@@ -62,6 +63,7 @@ body {
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.3) 1px 2px 8px 1px;
   position: relative;
+  display: none;
 }
 
 .main-nav-wrapper {
@@ -84,31 +86,40 @@ body {
   color: tomato;
 }
 
+.mobile-nav-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
 .intro {
   background-image: url('../image/main_big.png');
-  padding-top: 140px;
+  padding-top: 180px;
   padding-bottom: 140px;
   background-size: cover;
+  background-position: center center;
 }
 
 .header-title h1 {
   color: #f34910;
-  font-size: 44px;
+  font-size: 34px;
   font-weight: 500;
 }
 
 .header-intro p {
-  font-size: 84px;
+  font-size: 42px;
   font-weight: 900;
   color: #f33c08;
   text-transform: uppercase;
-  line-height: 80px;
+  line-height: 50px;
 }
 
 .header-description p {
   text-align: justify;
-  height: audo;
-  width: 50%;
+  height: auto;
+  width: 100%;
   border: 4px solid rgb(255, 255, 255);
   background-color: rgb(247, 247, 248);
   margin-top: 15px;
@@ -165,7 +176,7 @@ body {
 
 .program-wrapper-inner {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   gap: 10px;
 }
 
@@ -230,7 +241,7 @@ body {
 
 .speaker-wrapper-inner {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   gap: 10px;
 }
 
@@ -238,7 +249,7 @@ body {
   /* display: flex;
   flex-direction: column; */
   background: #fff;
-  padding: 20px;
+  padding: 50px;
   transition: all 0.3s;
 }
 
@@ -287,13 +298,15 @@ body {
 
 .partner-logo {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 
 .partner-logo img {
   width: 120px;
   height: auto;
+  margin: 20px;
 }
 
 .footer-inner {
@@ -302,8 +315,9 @@ body {
   padding-bottom: 50px;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer img {
@@ -311,6 +325,14 @@ body {
 }
 
 .footer-text {
-  width: 60%;
+  width: 100%;
   color: rgb(136, 136, 136);
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    min-width: 90% !important;
+  }
 }

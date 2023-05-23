@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+  .top-nav {
+    display: block;
+  }
+
+  .main-nav {
+    display: block;
+  }
+
+  .header-description p {
+    width: 50%;
+  }
+
+  .header-intro p {
+    font-size: 84px;
+    line-height: 80px;
+  }
+
+  .intro {
+    padding-top: 140px;
+  }
+
+  .header-title h1 {
+    font-size: 44px;
+  }
+
+  .program-wrapper-inner {
+    grid-template-columns: 50% 50%;
+  }
+
+  .speaker-wrapper-inner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+  }
+
+  .partner-logo {
+    flex-direction: row;
+  }
+
+  .footer-inner {
+    flex-direction: row;
+  }
+
+  .footer-text {
+    width: 60%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1300px) {
+  .program-wrapper-inner {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+}
