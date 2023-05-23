@@ -71,6 +71,10 @@ body {
   margin: 1px 10px;
 }
 
+.mobile-nav-wrapper > a {
+  margin: 20px;
+}
+
 .whole-program p a {
   font-size: 20px;
   color: #fff;
@@ -95,8 +99,6 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  /* mix-blend-mode: multiply;
-  backdrop-filter: blur(10px); */
   display: none;
 }
 
@@ -104,7 +106,6 @@ body {
   display: flex;
   flex-direction: column;
   background: #272a31;
-  /* justify-content: center; */
 }
 
 .top-nav-mobile > div {
@@ -136,10 +137,6 @@ body {
 .mobile-nav-wrapper {
   display: flex;
   flex-direction: column;
-}
-
-.mobile-nav-wrapper > a {
-  margin: 20px;
 }
 
 .logo-custom {
