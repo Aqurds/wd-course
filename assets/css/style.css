@@ -2,6 +2,13 @@ body {
   font-family: 'Lato', sans-serif !important;
 }
 
+#js-enable-message {
+  text-align: center;
+  color: tomato;
+  font-size: 18px;
+  font-weight: 900;
+}
+
 .top-nav {
   height: 36px;
   background-color: rgb(62, 62, 62);
