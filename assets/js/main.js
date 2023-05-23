@@ -18,7 +18,6 @@ function toggleMobileMenu(state) {
 openMobileMenu.addEventListener('click', () => { toggleMobileMenu(mobileMenuState.open); });
 closeMobileMenu.addEventListener('click', () => { toggleMobileMenu(mobileMenuState.close); });
 
-
 // Instructor content generator code starts here
 const instructorData = [
   {
@@ -67,7 +66,7 @@ const instructorData = [
 
 function loadInstructorProfile() {
   let htmlSkeletonToInsert = '';
-  function insertData(data, index) {
+  function insertData(data) {
     htmlSkeletonToInsert += `
     <div class="single-speaker">
       <img src="${data.instructorPhoto}" alt="" srcset="">
