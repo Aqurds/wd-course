@@ -5,7 +5,6 @@ body {
 .top-nav {
   height: 36px;
   background-color: rgb(62, 62, 62);
-  text-align: right;
   line-height: 36px;
   vertical-align: middle;
   text-align: right;
@@ -27,70 +26,70 @@ body {
   margin: 0 15px;
 }
 
+.register-wrapper a {
+  font-size: 1.125em;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #ef513c;
+  padding: 5px 25px;
+  color: #fff;
+  border: 1px solid #ef513c;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-shadow: none;
+  transition: all 0.3s;
+}  
+
 .top-nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: .813em;
+  font-size: 0.813em;
 }
 
 .logo-custom {
-    width: 180px;
-    height: auto;
+  width: 180px;
+  height: auto;
 }
 
 .main-nav {
   background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.3);
   position: relative;
 }
 
 .main-nav-wrapper {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .main-nav-wrapper ul li a {
-    color: rgb(136, 136, 136);
-    font-size: 1.1em;
-    transition: all 0.3s;
-    margin: 0 20px;
-    font-weight: normal;
-}
-
-.main-nav-wrapper ul li a:hover {
-    color: tomato;
-}
-
-.register-wrapper a {
-    font-size: 1.125em;
-    font-weight: bold;
-    vertical-align: middle;
-    text-align: center;
-    background-color: #ef513c;
-    padding: 5px 25px;
-    color: #fff;
-    border: 1px solid #ef513c;
-    display: inline-block;
-    text-decoration: none;
-    letter-spacing: 1px;
-    text-shadow: none;
-    transition: all 0.3s;
+  color: rgb(136, 136, 136);
+  font-size: 1.1em;
+  transition: all 0.3s;
+  margin: 0 20px;
+  font-weight: normal;
 }
 
 .register-wrapper a:hover {
-    border: 1px solid #fff;
+  border: 1px solid #fff;
+}
+
+.main-nav-wrapper ul li a:hover {
+  color: tomato;
 }
 
 .intro {
-    background-image: url('../image/main_big.png');
-    padding-top: 140px;
-    padding-bottom: 140px;
-    background-size: cover;
+  background-image: url('../image/main_big.png');
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-size: cover;
 }
 
 .header-title h1 {
-    color: #f34910;
-    font-size: 44px;
-    font-weight: 500;
+  color: #f34910;
+  font-size: 44px;
+  font-weight: 500;
 }
 
 .header-intro p {
@@ -102,30 +101,30 @@ body {
 }
 
 .header-description p {
-    text-align: justify;
-    height: audo;
-    width: 50%;
-    border: 4px solid rgb(255, 255, 255);
-    background-color: rgb(247, 247, 248);
-    margin: 15px 0px 40px;
-    line-height: 220%;
-    padding: 10px 25px 0px;
-    font-size: 1.125em;
+  text-align: justify;
+  height: audo;
+  width: 50%;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(247, 247, 248);
+  margin: 15px 0px 40px;
+  line-height: 220%;
+  padding: 10px 25px 0px;
+  font-size: 1.125em;
 }
 
 .header-time h2 {
-    color: rgb(87, 87, 87);
-    letter-spacing: -1px;
-    margin-bottom: 10px;
-    font-size: 40px;
-    font-weight: 900;
+  color: rgb(87, 87, 87);
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .header-time p {
-    color: rgb(87, 87, 87);
-    letter-spacing: 0px;
-    margin-bottom: 10px;
-    font-size: 22px;
-    margin-top: -15px;
-    font-weight: normal;
+  color: rgb(87, 87, 87);
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  margin-top: -15px;
+  font-weight: normal;
 }
