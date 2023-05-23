@@ -45,7 +45,7 @@ body {
 .whole-program p a {
   font-size: 20px;
   color: #fff;
-}  
+}
 
 .top-nav ul li a {
   text-decoration: none;
@@ -144,8 +144,8 @@ body {
 }
 
 .program-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .program-header {
@@ -157,10 +157,10 @@ body {
 
 .program-header-liner,
 .partner-header-liner {
-    background: #ef513c;
-    width: 50px;
-    height: 1px;
-    margin: 1px auto 50px;
+  background: #ef513c;
+  width: 50px;
+  height: 1px;
+  margin: 1px auto 50px;
 }
 
 .program-wrapper-inner {
@@ -192,7 +192,7 @@ body {
 }
 
 .single-program img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .single-program p {
@@ -256,9 +256,9 @@ body {
 }
 
 .single-speaker h5 {
-    font-size: 13px;
-    color: rgb(255, 79, 56);
-    font-weight: normal;
+  font-size: 13px;
+  color: rgb(255, 79, 56);
+  font-weight: normal;
 }
 
 .single-speaker .h5-liner {
@@ -269,13 +269,13 @@ body {
 }
 
 .single-speaker p {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .partner {
-    background: rgb(46, 46, 46);
-    padding-top: 100px;
-    padding-bottom: 120px;
+  background: rgb(46, 46, 46);
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .partner-header {
@@ -286,31 +286,31 @@ body {
 }
 
 .partner-logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .partner-logo img {
-    width: 120px;
-    height: auto;
+  width: 120px;
+  height: auto;
 }
 
 .footer-inner {
-    background: #fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  background: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer img {
-    width: 200px;
+  width: 200px;
 }
 
 .footer-text {
-    width: 60%;
-    color: rgb(136, 136, 136);
+  width: 60%;
+  color: rgb(136, 136, 136);
 }
