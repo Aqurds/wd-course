@@ -271,8 +271,9 @@ body {
   font-size: 1.125em;
   color: rgb(136, 136, 136);
 }
+
 .about-more {
-  margin: 0px auto 33px;
+  margin: 1px auto 33px;
   padding: 40px;
   line-height: 25px;
   border: 1px solid rgb(223, 223, 223);
