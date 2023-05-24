@@ -27,13 +27,13 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./assets/image/aqurds_icon.jpg" alt="logo" width="140"  height="auto" />
+  <img src="./assets/image/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Web development agency application</b></h3>
+  <h3><b>Web Development Course & Agency App</b></h3>
 
 </div>
-
+ <br/> <br/>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -58,11 +58,12 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
+ <br/> <br/>
 
-# 📖 Portfolio Project <a name="about-project"></a>
+# 📖 Web Development Agency Application <a name="about-project"></a>
 
 
-**Portfolio Project** is a personal project to showcase my skills and works
+This is an application for online course on Web Development and an agency application to demonstrate to client to get new clients
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,7 +73,9 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML and CSS</li>
+    <li>Html5 and CSS3</li>
+    <li>Bootstrap</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
@@ -81,16 +84,16 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **Show my skills**
-- **Show my projects**
-- **Express my future goal as a software engineer**
+- **Show courses**
+- **Show instructors profiles**
+- **Online courses**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://aqurds.github.io/mv-pmo/)
+- [Live Demo Link](https://aqurds.github.io/wd-course/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +130,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:Aqurds/microverse-project-module-one.git
+  git clone https://github.com/Aqurds/wd-course.git
 ```
 
 ### Install
@@ -136,7 +139,7 @@ Install this project with:
 
 <ul>
   <li>Node</li>
-  <li>Linters (follow this link's instruction <a href="https://github.com/microverseinc/linters-config">install linter</a>)</li>
+  <li>Linters (follow this link's instruction & <a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">install linter</a>)</li>
 </ul>
 
 ### Usage
@@ -192,9 +195,12 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **project showcase section**
-- **client's feedback**
-- **contact section**
+- **Online scheduling for students**
+- **Course play online**
+- **Payment system**
+- **Demo for clients**
+- **Dashboard for students**
+- **Dashboard for clients**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,7 +218,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please send a welcome message on Twitter and let's have a chat to share coding knowledge.
+If you like this project please give a star and send a welcome message on Twitter. Let's have a chat if you would like to share new features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,7 +226,9 @@ If you like this project please send a welcome message on Twitter and let's have
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my wife, who always inspires me to be a better software engineer. Also thanks to Microverse for awesome support.
+- Design credit to <a href="https://www.behance.net/adagio07">Cindy Shin</a>.
+- Motivation credit to my wife **Nupur**, who always inspires me to be a better software engineer.
+- Big thanks to Microverse for awesome support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
