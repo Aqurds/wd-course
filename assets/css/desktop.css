@@ -46,6 +46,20 @@
     width: 60%;
     text-align: left;
   }
+
+  .about {
+    padding-top: 80px;
+  }
+
+  .article-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-intro p {
+    font-size: 82px;
+    line-height: 90px;
+  }
 }
 
 @media (min-width: 1300px) {
