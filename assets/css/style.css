@@ -501,7 +501,8 @@ body {
 }
 
 .footer-about {
-  background: none;
+  background: rgb(46, 46, 46);
+  margin-top: 1px;
 }
 
 .footer-inner {
@@ -629,7 +630,7 @@ body {
 .logo-details div.col-12 img {
   margin-top: 50px;
   border: 1px solid rgb(136, 136, 136);
-  padding: 50px 100px;
+  padding: 30px 60px;
 }
 
 @media (min-width: 576px) {

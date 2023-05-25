@@ -84,6 +84,14 @@
     margin-right: 20px;
     margin-bottom: 20px;
   }
+
+  .partner-about {
+    display: none;
+  }
+
+  .footer-about {
+    margin-top: 100px;
+  }
 }
 
 @media (min-width: 1300px) {
