@@ -70,12 +70,14 @@ function loadInstructorProfile() {
     htmlSkeletonToInsert += `
     <div class="single-speaker">
       <img src="${data.instructorPhoto}" alt="" srcset="">
-      <h3>${data.instructorName}</h3>
-      <h5>${data.instructorTechStack}</h5>
-      <div class="h5-liner"></div>
-      <p>
-          ${data.details}
-      </p>
+      <div class="single-speaker-inner">
+        <h3>${data.instructorName}</h3>
+        <h5>${data.instructorTechStack}</h5>
+        <div class="h5-liner"></div>
+        <p>
+            ${data.details}
+        </p>
+      </div>
     </div>
     `;
   }

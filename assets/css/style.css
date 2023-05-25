@@ -83,6 +83,7 @@ body {
 .whole-program p a {
   font-size: 20px;
   color: #fff;
+  text-decoration: none;
 }
 
 .top-nav ul li a {
@@ -245,6 +246,7 @@ body {
   line-height: 50px;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .header-description p {
@@ -289,6 +291,14 @@ body {
   color: rgb(136, 136, 136);
   margin-top: 65px;
   margin-bottom: 1px;
+}
+
+.about-contact a {
+  color: rgb(51, 51, 51);
+}
+
+.contact-span {
+  color: rgb(51, 51, 51);
 }
 
 .header-time h2 {
@@ -350,7 +360,9 @@ body {
 
 .single-program {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background: rgba(255, 255, 255, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.01);
   padding: 20px;
@@ -365,9 +377,8 @@ body {
   color: rgb(239, 81, 60);
   font-size: 24px;
   font-weight: bold;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  text-align: left;
+  margin: 30px;
 }
 
 .single-program img {
@@ -381,6 +392,7 @@ body {
   font-size: 0.813em;
   padding: 1px 17px;
   line-height: 1.5em;
+  margin-bottom: 0px;
 }
 
 .whole-program p {
@@ -388,9 +400,17 @@ body {
   color: #fff;
   font-weight: normal;
   text-align: center;
-  text-transform: uppercase;
-  margin-top: 90px;
+  text-transform: capitalize;
   word-spacing: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  width: 400px;
+  height: 68px;
+  background: #FF4F38;
+  margin: 90px auto 1px;
 }
 
 .speaker {
@@ -416,13 +436,15 @@ body {
 .single-speaker {
   background: #fff;
   padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   transition: all 0.3s;
 }
 
 .single-speaker img {
-  width: 180px;
-  height: auto;
-  float: left;
+  width: 70%;
+  height: 70%;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -433,9 +455,10 @@ body {
 }
 
 .single-speaker h5 {
-  font-size: 13px;
-  color: rgb(255, 79, 56);
+  font-size: 14px;
+  color: #fd5d47;
   font-weight: normal;
+  font-style: italic;
 }
 
 .single-speaker .h5-liner {
@@ -463,20 +486,25 @@ body {
 }
 
 .partner-logo {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
+  display: block;
+  text-align: center;
+}
+
+.partner-about {
+  margin-top: 100px;
 }
 
 .partner-logo img {
-  width: 120px;
-  height: auto;
-  margin: 20px;
+  width: 100px;
+  height: 50px;
+  margin: 15px;
+}
+
+.footer-about {
+  background: none;
 }
 
 .footer-inner {
-  background: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
@@ -486,8 +514,22 @@ body {
   align-items: center;
 }
 
+.footer-inner-about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer img {
   width: 200px;
+}
+
+.footer-about img {
+  width: 150px;
 }
 
 .footer-text {
@@ -495,6 +537,12 @@ body {
   color: rgb(136, 136, 136);
   text-align: center;
   margin-top: 50px;
+}
+
+.footer-about-text {
+  color: rgb(136, 136, 136);
+  text-align: left;
+  padding-left: 50px;
 }
 
 .meetup {
@@ -527,6 +575,33 @@ body {
 
 .meetup-session {
   padding: 20px;
+  position: relative;
+}
+
+.meetup-article-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  margin-top: -50px;
+  margin-left: -100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.meetup-header {
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.meetup-menu {
+  font-weight: 900;
 }
 
 .meetup-session img {

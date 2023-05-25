@@ -25,17 +25,13 @@
   }
 
   .program-wrapper-inner {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
   }
 
   .speaker-wrapper-inner {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 10px;
-  }
-
-  .partner-logo {
-    flex-direction: row;
   }
 
   .footer-inner {
@@ -45,6 +41,10 @@
   .footer-text {
     width: 60%;
     text-align: left;
+  }
+
+  .footer-about img {
+    width: 150px;
   }
 
   .about {
@@ -57,8 +57,32 @@
   }
 
   .about-intro p {
-    font-size: 82px;
-    line-height: 90px;
+    font-size: 62px;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .single-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .whole-program p {
+    background: none;
+  }
+
+  .whole-program p a {
+    text-decoration: underline;
+  }
+
+  .single-speaker img {
+    width: 40%;
+    height: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
 }
 
