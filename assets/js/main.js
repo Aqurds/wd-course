@@ -68,7 +68,7 @@ function loadInstructorProfile() {
   let htmlSkeletonToInsert = '';
   function insertData(data) {
     htmlSkeletonToInsert += `
-    <div class="single-speaker">
+    <article class="single-speaker">
       <img src="${data.instructorPhoto}" alt="" srcset="">
       <div class="single-speaker-inner">
         <h3>${data.instructorName}</h3>
@@ -78,7 +78,7 @@ function loadInstructorProfile() {
             ${data.details}
         </p>
       </div>
-    </div>
+    </article>
     `;
   }
   instructorData.map(insertData);
