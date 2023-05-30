@@ -444,7 +444,7 @@ body {
 
 .single-speaker img {
   width: 70%;
-  height: 70%;
+  height: auto;
   margin-right: 20px;
   margin-bottom: 20px;
 }
